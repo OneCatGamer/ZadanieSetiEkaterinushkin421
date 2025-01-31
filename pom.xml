@@ -11,7 +11,8 @@
 	<groupId>com.example</groupId>
 	<artifactId>Zadanie1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Zadanie1</name>
+    <packaging>pom</packaging>
+    <name>Zadanie1</name>
 	<description>Zadanie1 for seti</description>
 	<url/>
 	<licenses>
@@ -20,7 +21,10 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>core-service</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
